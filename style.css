@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.contact, .skills, .resume {
+  margin: 20px;
+  padding: 20px;
+  border: 1px lightyellow;
+  border-radius: 5px;
+}
+
+.contact h2, .skills h2, .resume h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color:lightseagreen;
+}
